@@ -1,0 +1,66 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: #fdfdfd;
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e293b; /* dark blue-gray */
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #facc15; /* golden yellow */
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.navLinks a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #e2e8f0; /* light gray */
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+}
+
+.navLinks a:hover {
+  background: #334155; /* hover highlight */
+  color: #facc15;
+}
+
+/* Main content */
+.mainContent {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1100px;
+  margin: 1.5rem auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #475569;
+  background: #f1f5f9;
+  border-top: 1px solid #e2e8f0;
+}

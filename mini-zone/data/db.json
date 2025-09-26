@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Cookware Set #1",
+      "price": 1920,
+      "category": "Groceries",
+      "rating": 3.9,
+      "stock": 68,
+      "image": "https://placehold.co/300x300?text=Cookware+Set+#1"
+    },
+    {
+      "id": 2,
+      "title": "Ball Pen Set #2",
+      "price": 2976,
+      "category": "Home",
+      "rating": 4.9,
+      "stock": 175,
+      "image": "https://placehold.co/300x300?text=Ball+Pen+Set+#2"
+    },
+    {
+      "id": 3,
+      "title": "Wireless Headphones #3",
+      "price": 3862,
+      "category": "Toys",
+      "rating": 4.3,
+      "stock": 39,
+      "image": "https://placehold.co/300x300?text=Wireless+Headphones+#3"
+    },
+    {
+      "id": 4,
+      "title": "Garden Tool Kit #4",
+      "price": 1834,
+      "category": "Beauty",
+      "rating": 3.6,
+      "stock": 116,
+      "image": "https://placehold.co/300x300?text=Garden+Tool+Kit+#4"
+    },
+    {
+      "id": 5,
+      "title": "Cotton T-Shirt #5",
+      "price": 3143,
+      "category": "Gaming",
+      "rating": 3.8,
+      "stock": 103,
+      "image": "https://placehold.co/300x300?text=Cotton+T-Shirt+#5"
+    },
+    {
+      "id": 6,
+      "title": "Bluetooth Speaker #6",
+      "price": 746,
+      "category": "Footwear",
+      "rating": 4.1,
+      "stock": 198,
+      "image": "https://placehold.co/300x300?text=Bluetooth+Speaker+#6"
+    }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "username": "rohitkumar",
+      "email": "rohit@example.com",
+      "password": "123456",
+      "address": "Patna, Bihar",
+      "isAdmin": false
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "email": "admin@minizon.com",
+      "password": "admin123",
+      "address": "Delhi",
+      "isAdmin": true
+    }
+  ],
+
+  "cartItems": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 2,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productId": 1,
+      "quantity": 1
+    }
+  ],
+
+  "wishlists": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 3
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productId": 4
+    }
+  ],
+
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 2
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 3097,
+      "status": "Delivered",
+      "date": "2025-07-12"
+    }
+  ]
+}

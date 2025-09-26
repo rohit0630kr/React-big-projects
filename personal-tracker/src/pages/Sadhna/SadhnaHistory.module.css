@@ -1,0 +1,39 @@
+.historyTitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #000;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.2rem;
+}
+
+.historyList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.historyItem {
+  background: #f7f7f7;
+  border-left: 3px solid #000;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #111;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.historyItem p {
+  color: rgb(104, 104, 183);
+}
+
+.historyItem span {
+  display: block;
+  width: 100%;
+}
+
+.historyItem:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}

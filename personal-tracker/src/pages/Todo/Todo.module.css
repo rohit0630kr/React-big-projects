@@ -1,0 +1,19 @@
+.todo {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.heading {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Empty message */
+.empty {
+  text-align: center;
+  color: #777;
+  margin-top: 2rem;
+}

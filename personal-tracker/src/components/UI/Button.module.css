@@ -1,0 +1,13 @@
+.btnPrimary {
+  padding: 0.6rem 1.2rem;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btnPrimary:hover {
+  background: #005fcc;
+}

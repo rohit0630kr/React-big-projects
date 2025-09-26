@@ -1,0 +1,13 @@
+.navigation {
+  background-color: #37475a;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.navigation_item {
+  color: white;
+  text-decoration: none;
+}

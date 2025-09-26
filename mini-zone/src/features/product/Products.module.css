@@ -1,0 +1,33 @@
+/* Container for each category section */
+h1 {
+  font-size: 2rem;
+  margin: 20px 0 10px;
+  color: #333;
+  text-align: center;
+}
+
+/* Responsive product grid */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+/* Optional: add smooth fade-in effect for products */
+.products > * {
+  animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
