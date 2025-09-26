@@ -1,0 +1,34 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Ash Ketchum",
+      "image": "https://archives.bulbagarden.net/media/upload/thumb/c/cd/Ash_JN.png/800px-Ash_JN.png",
+      "region": "Kanto"
+    },
+    {
+      "id": 2,
+      "name": "Misty",
+      "image": "https://archives.bulbagarden.net/media/upload/thumb/9/99/Misty_Journeys.png/225px-Misty_Journeys.png",
+      "region": "Cerulean City"
+    },
+    {
+      "id": 3,
+      "name": "Professor Oak",
+      "image": "https://archives.bulbagarden.net/media/upload/7/7d/Professor_Oak_JN_artwork.png",
+      "region": "Pewter City"
+    },
+    {
+      "id": 4,
+      "name": "Team Rocket - James",
+      "image": "https://archives.bulbagarden.net/media/upload/thumb/1/19/James_JN.png/239px-James_JN.png",
+      "region": "Unknown"
+    },
+    {
+      "id": 5,
+      "name": "Officer Jenny",
+      "image": "https://archives.bulbagarden.net/media/upload/b/bb/Officer_Jenny_JN.png",
+      "region": "Multiple"
+    }
+  ]
+}

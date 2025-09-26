@@ -1,0 +1,131 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #fff8e1;
+  width: 90%;
+  max-width: 720px;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  font-size: 1.8rem;
+  color: #3e2d1c;
+}
+
+.closeBtn {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.instructions {
+  margin: 1rem 0;
+  color: #5a4633;
+  text-align: center;
+  font-style: italic;
+}
+
+.inventorySection {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.empty {
+  text-align: center;
+  font-style: italic;
+  color: #7a5d40;
+}
+
+.itemList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  flex: 1 1 120px;
+  background: #fff1c1;
+  border-radius: 12px;
+  padding: 0.6rem;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background 0.3s;
+}
+
+.item:hover {
+  transform: scale(1.05);
+  background: #ffeab0;
+}
+
+.selected {
+  border: 2px solid #ff9f1c;
+  background-color: #fff0b6;
+}
+
+.icon {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.name {
+  font-weight: bold;
+  color: #4a321c;
+  display: block;
+}
+
+.qty {
+  color: #6a4a2e;
+  font-size: 0.9rem;
+}
+
+.mergeBox {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.mergeBox p {
+  font-weight: bold;
+  color: #3e2d1c;
+  margin-bottom: 0.5rem;
+}
+
+.mergeBtn {
+  background-color: #ffd17a;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.mergeBtn:hover {
+  background-color: #ffc04d;
+}

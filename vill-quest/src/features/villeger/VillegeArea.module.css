@@ -1,0 +1,43 @@
+/* Top Villages */
+.villageContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 3px));
+  gap: 20px;
+  padding: 15px;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.villageBox {
+  /* position: absolute; */
+  top: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* .villageA {
+  left: 20px;
+}
+
+.villageB {
+  right: 20px;
+} */
+
+.villageBox h2 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.4rem;
+  color: #3e2d1c;
+}
+
+.villageBox p {
+  margin: 0 0 0.5rem 0;
+  color: #5a4633;
+  font-weight: bold;
+}
+
+.people {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,23 @@
+/* Bottom Player Area */
+.playerBox {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1rem 2rem;
+  border-radius: 16px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.playerBox h2 {
+  margin-bottom: 0.5rem;
+  color: #3e2d1c;
+}
+
+.playerActions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
